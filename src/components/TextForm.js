@@ -64,7 +64,7 @@ export default function TextForm(props) {
         <h2>Preview</h2>
         <p>{text}</p>
         <small>
-          {text.length === 0 ? 0 : text.trim().split(" ").length} words |{" "}
+          {text.length === 0 ? 0 : text.trim().split(/\s+/).length} words |{" "}
           {text.length} Characters
         </small>
       </div>
