@@ -3,7 +3,7 @@ import React from 'react';
 function Aboutus(props) {
 
   return (
-    <div className={`container-fluid text-${props.mode === "dark" ? "white" : "black"}`} style={{ padding: '20px', fontFamily: 'Arial, sans-serif', color: props.mode === "dark" ? "white" : "black", background:props.mode === "dark" ? "black" : "white"}}>
+    <div className={` text-${props.mode === "dark" ? "white" : "black"}`} style={{ padding: '20px', fontFamily: 'Arial, sans-serif', color: props.mode === "dark" ? "white" : "black",}}>
       <h1>About Us</h1>
       <p>
         Welcome to <strong>Text Analyzer</strong>, your go-to tool for all things related to text analysis! 

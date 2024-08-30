@@ -68,7 +68,7 @@ function App() {
         <div className="container">
           
         <Routes>
-            <Route path="/about" element={<Aboutus />}>
+            <Route path="/about" element={<Aboutus mode={mode}/>}>
             </Route>
             <Route path="/" element={
               <TextForm title="Text Analyzer" mode={mode} alert={showAlert} />}>

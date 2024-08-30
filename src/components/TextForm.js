@@ -24,7 +24,7 @@ export default function TextForm(props) {
 
   return (
     <>
-      <div className="mb-3">
+      <div className="mb-3 my-3">
         <h2
           className={`form-label text-${
             props.mode === "dark" ? "white" : "black"
